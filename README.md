@@ -6,8 +6,8 @@ I have a league of legends problem. Some of my friends told me to join playing l
 
 So the obvious solution is to disable myself from playing league when I'm not playing with my friends. That's where `CancelLeague` comes in:
 
-1. CancelLeague is a discord bot that allows everyone except blacklisted people to buy me time.
-2. CancelLeague is a system windows process (meaning if it dies, the system BSODs).
+1. CancelLeague is a discord bot that allows everyone except blacklisted people to buy me time (so I can't buy myself time).
+2. CancelLeague is a system windows process (meaning if it dies, the system BSODs) (so I can't just kill the process).
 3. CancelLeague should be run on start to make sure that the moment you boot up, you are banned from playing League.
 
 ## Code quality
